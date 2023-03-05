@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Poppins:wght@100&display=swap');
+
+body {
+    background-color: #F5EDE6;
+}
+
+/* navigatie  */
+nav ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li img {
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    margin-top: 0em;
+
+}
+
+/* intro pagina logo */
+body img {
+    width: 16em;
+    height: 18em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+
+/* intro pagina text stuk */
+main p {
+    color: #7B4A46;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2em;
+}
+
+/* gele foto op de achtergrond */
+main img {
+    width: 25em;
+    height: 25em;
+    position: absolute;
+    top: 10em;
+    z-index: -1;
+}
+
+
+/* buttons */
+footer a:nth-of-type(1) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #6B6DAC;
+    padding: .5em;
+    border-radius: .75em;
+    display: block;
+    margin-top: 3em;
+}
+
+
+/* h1 op elke pagina */
+h1 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Baskervville', serif;
+    color: #7B4A46;
+}
+
+h2 {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+    color: #7B4A46;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* de cirkel */
+/* hulp van : https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html */
+
+h4:nth-of-type(1) {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 4px solid #5671B1;
+    color: #000;
+    background-color: #F5EDE6;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    position: absolute;
+    top: 14.3em;
+    left: 10.3em;
+}
+
+h4:nth-of-type(2) {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 4px solid #FAD367;
+    color: #000;
+    background-color: #F5EDE6;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    position: absolute;
+    top: 16.3em;
+    left: 15.5em;
+
+
+}
+
+h4:nth-of-type(3) {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 4px solid #6B6DAC;
+    color: #000;
+    background-color: #F5EDE6;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    position: absolute;
+    top: 21.5em;
+    left: 17.5em;
+}
+
+h4:nth-of-type(4) {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 4px solid #9BC564;
+    color: #000;
+    background-color: #F5EDE6;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    position: absolute;
+    top: 27em;
+    left: 15.5em;
+}
+
+h4:nth-of-type(5) {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 4px solid #5671B1;
+    color: #000;
+    background-color: #F5EDE6;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    position: absolute;
+    top: 29.3em;
+    left: 10.3em;
+}
+
+h4:nth-of-type(6) {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 4px solid #FAD367;
+    color: #000;
+    background-color: #F5EDE6;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    position: absolute;
+    top: 27em;
+    left: 5em;
+}
+h4:nth-of-type(7) {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 4px solid #6B6DAC;
+    color: #000;
+    background-color: #F5EDE6;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    position: absolute;
+    top: 21.5em;
+    left: 2.8em;
+}
+
+h4:nth-of-type(8) {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 4px solid #9BC564;
+    color: #000;
+    background-color: #F5EDE6;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    position: absolute;
+    top: 16.3em;
+    left: 5em;
+}
+
+h4:nth-of-type(9) {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 4px solid #5671B1;
+    color: #000;
+    background-color: #F5EDE6;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    position: absolute;
+    top: 40em;
+    left: 22em;
+
+}
+
+
+
+/* ik wil dubble klikken om aan te geven dat ze klaar zijn met de stap.
+ maar dat kan volgensmij alleen met Java erbij */
+
+
+
+
+/* achtergrond van paginas */
+#register {
+    background-image: url(images/ruitjes.png);
+}
+
+#main{
+    background-image: url(images/main.png);
+}
+
+/* h1 op de andere paginas ( register )*/
+main h1 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Baskervville', serif;
+    color: #5671B1
+}
+
+/* p van register */
+article p {
+    color: #7B4A46;
+    text-align: left;
+    font-size: 1em;
+    background-color: #F5EDE6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* phone provider pagina */
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+}
+
+section:nth-of-type(1) h2 {
+    color: #5671B1;
+    font-family: 'Baskervville', serif;
+    font-size: 5em;
+    position: absolute;
+}
+
+section:nth-of-type(2) h2 {
+    color: #FAD367;
+    font-family: 'Baskervville', serif;
+    font-size: 5em;
+    position: absolute;
+}
+
+section:nth-of-type(3) h2 {
+    color: #9BC564;
+    font-family: 'Baskervville', serif;
+    font-size: 5em;
+    position: absolute;
+}
+
+section h3 {
+    color: #7B4A46;
+    font-family: 'Baskervville', serif;
+    font-size: 2em;
+    position: absolute;
+    left: 1em;
+}
+
+
+section p {
+    text-align: left;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 3em;
+    left: 3em;
+}
+
+section a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #9BC564;
+    padding: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: .75em;
+    position: relative;
+    top: 2em;
+    width: 50%;
+    align-self: unset;
+}
+
+/* mini folders op de folder pagina */
+section img:nth-of-type(1){
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    top: 14em;
+
+}
+
+section img:nth-of-type(2) {
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    top: 21em;
+
+}
+
+section img:nth-of-type(3) {
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    top: 28em;
+
+}
+
+
